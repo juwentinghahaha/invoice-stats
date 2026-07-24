@@ -5,7 +5,7 @@ import * as XLSX from "xlsx";
    設定：把這裡改成你自己的 Cloudflare Worker 網址
    部署 Worker 前先留空，app 仍可手動輸入使用
    ────────────────────────────────────────────────────────── */
-const API_URL = "";   // 例："https://invoice-api.your-name.workers.dev"
+const API_URL = "https://einvoice-api.ethanju0725.workers.dev";   // 例："https://invoice-api.your-name.workers.dev"
 
 const CATS = [
   { id: "reagent",  label: "試劑耗材", color: "#3F6B52" },
